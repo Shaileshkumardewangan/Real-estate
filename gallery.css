@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.container {
+    background-color: #034871;
+    height: 80px;
+    width: auto;
+}
+.navbar {
+    height: 50%;
+    width: 100%;
+}
+.l{
+    position: absolute;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 10px;
+    width: 15%;
+    border-radius: 15px;
+}
+.navadd {
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: 60%;
+    height: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navadd a {
+    color: white;
+    text-decoration: none;
+}
+
+.navadd a:hover {
+    color: #ccc; /* change text color on hover */
+    background-color: #034871; /* add background color on hover */
+    border-radius: 10px; /* add border radius on hover */
+    padding: 10px 20px; /* add padding on hover */
+  }
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.2%;
+    font-family: "Kumbh Sans", Sans-serif;
+    color: #312038;
+    font-size: 57px;
+    font-weight: 700;
+}
+.gallerycontent {
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 2.2%;
+}
+img {
+    border-radius: 20px;
+    gap: 5%;
+}
+
+.gallerycontent img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* footer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #034871;
+    color: white;
+}
+.foot-panel1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 5%;
+    font-size: 18px;
+    cursor: pointer;
+}
+ul {
+    margin-top: 20px;
+ }
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot-panel2 {
+    color: white;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+ }
+.foot-panel2 a{
+    color: white;
+    text-decoration: none;
+}
+
+ 
+

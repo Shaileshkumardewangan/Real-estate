@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #034871;
+}
+.navbar{
+    background-color: #034871;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+    cursor: pointer;
+}
+.logo h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.attributes{
+    color: white;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.au{
+    width: 7vw;
+    color: white;
+    text-decoration: none;
+}
+.attributes a:hover {
+    color: #ccc; /* change text color on hover */
+    background-color: #034871; /* add background color on hover */
+    border-radius: 10px; /* add border radius on hover */
+    padding: 10px 20px; /* add padding on hover */
+  }
+
+.side-nav{
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:#034871;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    display: none;
+}
+.side-nav-close{
+    display: none;
+}
+.side-nav-open{
+    display: block;
+    width: 250px;
+}
+
+
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+
+.side-nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+    background: none;
+    border: none;
+}
+.menu{
+    display: none;
+}
+/* Client Service Section Styles */
+
+.client-service {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    margin-top: 2.5%;
+  }
+  
+  .client-service .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .client-service h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .client-service p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-item {
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service-item i {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }

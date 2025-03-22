@@ -1,0 +1,381 @@
+
+/* navigation bar */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  background-color: #034871;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 3%;
+  cursor: pointer;
+}
+.logo h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.attributes{
+  color: white;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.au{
+  width: 7vw;
+  color: white;
+  text-decoration: none;
+}
+.attributes a:hover {
+  color: #ccc; /* change text color on hover */
+  background-color: #034871; /* add background color on hover */
+  border-radius: 10px; /* add border radius on hover */
+  padding: 10px 20px; /* add padding on hover */
+}
+
+.side-nav{
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:#034871;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  display: none;
+}
+.side-nav-close{
+  display: none;
+}
+.side-nav-open{
+  display: block;
+  width: 250px;
+}
+
+
+.side-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+.side-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  background: none;
+  border: none;
+}
+.menu{
+  display: none;
+}
+
+
+.ad {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ad p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .ad p:first-child {
+    margin-top: 0;
+  }
+  
+  .ad p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ad br {
+    margin-bottom: 10px;
+  }
+  
+  .ad br + br {
+    margin-bottom: 20px;
+  }
+  
+  .ad strong {
+    font-weight: bold;
+  }
+  
+  .ad ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ad ul li {
+    margin-bottom: 10px;
+  }
+  
+  .ad ul li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .ad p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .ad p:nth-child(2) {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .ad p:nth-child(3) {
+    margin-top: 20px;
+  }
+  
+  .ad p:nth-child(4),
+  .ad p:nth-child(5),
+  .ad p:nth-child(6) {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .ad p:nth-child(4):before,
+  .ad p:nth-child(5):before,
+  .ad p:nth-child(6):before {
+    content: "\25B8";
+    margin-right: 10px;
+    color: #666;
+  }
+
+  /* footer */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #034871;
+    color: white;
+}
+.foot-panel1{
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: space-evenly;
+    gap: 10%;
+    font-size: 18px;
+    cursor: pointer;
+}
+ul {
+    margin-top: 20px;
+ }
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot-panel2 {
+    color: white;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+ }
+
+ .foot-panel2 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+@media (max-width:920px) {
+  .navbar{
+      background-color: #034871;
+      height:80px;
+      display: flex;
+      justify-content: baseline;
+      align-items: center;
+      font-weight: blod;
+      width: 165vw;
+  }
+ /* .logo h1 {
+      width: 100px;
+      height: 20px;
+      margin-left: 40px; 
+ }  */
+ .attributes{
+      /* color: blue;
+      display: flex;
+      gap:5px;
+      justify-content: center;
+      align-items:center;
+      font-weight: bold;
+      font-size: 60%; */
+      display: none;
+  }
+  .au{
+      width: 8vw;
+  }
+  .menu{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      border: none;
+      background: none;
+
+  }
+  .menuimage{
+      width: 45px;
+      height: 45px;
+  }
+
+  .ad {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    margin-left: 25%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ad p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .ad p:first-child {
+    margin-top: 0;
+  }
+  
+  .ad p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ad br {
+    margin-bottom: 10px;
+  }
+  
+  .ad br + br {
+    margin-bottom: 20px;
+  }
+  
+  .ad strong {
+    font-weight: bold;
+  }
+  
+  .ad ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ad ul li {
+    margin-bottom: 10px;
+  }
+  
+  .ad ul li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .ad p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .ad p:nth-child(2) {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .ad p:nth-child(3) {
+    margin-top: 20px;
+  }
+  
+  .ad p:nth-child(4),
+  .ad p:nth-child(5),
+  .ad p:nth-child(6) {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .ad p:nth-child(4):before,
+  .ad p:nth-child(5):before,
+  .ad p:nth-child(6):before {
+    content: "\25B8";
+    margin-right: 10px;
+    color: #666;
+  }
+  footer{
+    background-color: #034871;
+    color: white;
+    height: auto;
+    width: 171vw;
+   }
+   .foot-panel1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* justify-content: space-evenly; */
+    gap: 2.5%;
+    font-size: 18px;
+    cursor: pointer;
+}
+ul {
+    margin-top: 20px;
+ }
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot-panel2 {
+    color: white;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+ }
+.foot-panel2 a{
+    color: white;
+    text-decoration: none;
+}
+}

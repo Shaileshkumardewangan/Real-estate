@@ -1,0 +1,152 @@
+body {
+    background-color: #034871;
+}
+.te {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .te h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .te p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .te p:first-child {
+    margin-top: 0;
+  }
+  
+  .te p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .te br {
+    margin-bottom: 10px;
+  }
+  
+  .te br + br {
+    margin-bottom: 20px;
+  }
+  
+  .te strong {
+    font-weight: bold;
+  }
+  
+  .te ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .te ul li {
+    margin-bottom: 10px;
+  }
+  
+  .te ul li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .te p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .te p:nth-child(3) {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .te p:nth-child(4) {
+    margin-top: 20px;
+  }
+
+
+  @media (max-width:920px) {
+    body {
+      background-color: #034871;
+  }
+  .te {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .te h2 {
+      font-weight: bold;
+      font-size: 24px;
+      margin-top: 0;
+      color: #333;
+    }
+    
+    .te p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .te p:first-child {
+      margin-top: 0;
+    }
+    
+    .te p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .te br {
+      margin-bottom: 10px;
+    }
+    
+    .te br + br {
+      margin-bottom: 20px;
+    }
+    
+    .te strong {
+      font-weight: bold;
+    }
+    
+    .te ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .te ul li {
+      margin-bottom: 10px;
+    }
+    
+    .te ul li:before {
+      content: "\2022";
+      margin-right: 10px;
+      color: #666;
+    }
+    
+    .te p:nth-child(2) {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .te p:nth-child(3) {
+      font-style: italic;
+      margin-top: 20px;
+    }
+    
+    .te p:nth-child(4) {
+      margin-top: 20px;
+    }
+  }
